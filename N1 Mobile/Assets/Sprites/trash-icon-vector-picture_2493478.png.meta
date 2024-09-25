@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: db41a842913d2be4aa8692b9c57f841d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7631117590216244665
+    second: trash-icon-vector-picture_2493478_0
+  - first:
+      213: 2522178623208471228
+    second: trash-icon-vector-picture_2493478_1
+  - first:
+      213: 3213948152859050870
+    second: trash-icon-vector-picture_2493478_2
+  - first:
+      213: 2567133040665483050
+    second: trash-icon-vector-picture_2493478_3
+  - first:
+      213: 5608927337646584370
+    second: trash-icon-vector-picture_2493478_4
+  - first:
+      213: 854619959251042765
+    second: trash-icon-vector-picture_2493478_5
+  - first:
+      213: -2693207654780052841
+    second: trash-icon-vector-picture_2493478_6
+  - first:
+      213: 1681670018458092246
+    second: trash-icon-vector-picture_2493478_7
+  - first:
+      213: -5846665944558460077
+    second: trash-icon-vector-picture_2493478_8
+  - first:
+      213: 7119999950987082166
+    second: trash-icon-vector-picture_2493478_9
+  - first:
+      213: -7648845699040576382
+    second: trash-icon-vector-picture_2493478_10
+  - first:
+      213: 4228074504645210568
+    second: trash-icon-vector-picture_2493478_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6c7ef5d26a6a94db950e9006259a6e
+      internalID: -2109853634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 803
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3adddf3c49acc46b6a6e74647923be
+      internalID: 1883851565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 803
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7846e16f5e1940b478c60226062feec1
+      internalID: 1253217101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c18eb2e1b0e05d46a03e50b1a4f7005
+      internalID: 2009964415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 536
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c2788f958ef7f4cabafb40efe4a789
+      internalID: -748409727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 536
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dbb2781b326984faa89bb8ae567859
+      internalID: 1193497795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c32ee02b17a6574890da807ca19c979
+      internalID: -599372140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 269
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54424e9e9de27742a32006a75084ec5
+      internalID: 583346501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 269
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72e5e3067dcf4546b9751d5c4dad109
+      internalID: 400687901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce06a7e0b12f9244b3ce94937475303
+      internalID: 1890738759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17056361709275d4ebcfcc5711904d3e
+      internalID: 276729293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash-icon-vector-picture_2493478_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d439f94d85708a47a19dbb1d814bb1a
+      internalID: 1932182392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 74f2cc483c9774249b53bd0b9bc6159e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      trash-icon-vector-picture_2493478_0: -2109853634
+      trash-icon-vector-picture_2493478_1: 1883851565
+      trash-icon-vector-picture_2493478_10: 276729293
+      trash-icon-vector-picture_2493478_11: 1932182392
+      trash-icon-vector-picture_2493478_2: 1253217101
+      trash-icon-vector-picture_2493478_3: 2009964415
+      trash-icon-vector-picture_2493478_4: -748409727
+      trash-icon-vector-picture_2493478_5: 1193497795
+      trash-icon-vector-picture_2493478_6: -599372140
+      trash-icon-vector-picture_2493478_7: 583346501
+      trash-icon-vector-picture_2493478_8: 400687901
+      trash-icon-vector-picture_2493478_9: 1890738759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
