@@ -8,6 +8,9 @@ public class LevelManager : MonoBehaviour
     public float tempo;
     [SerializeField] private TextMeshProUGUI txtTempo;
     [SerializeField] private GameObject pnlGameOver;
+    [SerializeField] private GameObject pnlDefault;
+
+    [SerializeField] private GameObject spawner;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +25,7 @@ public class LevelManager : MonoBehaviour
         if (tempo > 0)
         {
             tempo -= Time.deltaTime;
-            if (tempo < 6)
+            if (tempo <= 10)
             {
                 txtTempo.color = Color.red;
             }
@@ -39,6 +42,9 @@ public class LevelManager : MonoBehaviour
 
     void GameOver()
     {
+        Destroy(spawner);
+
+        pnlDefault.SetActive(false);
         pnlGameOver.SetActive(true);
         
     }
