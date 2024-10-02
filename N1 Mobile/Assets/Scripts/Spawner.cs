@@ -43,24 +43,28 @@ public class Spawner : MonoBehaviour
 
     void MovimentoSpawner()
     {
-        switch (leftOrRight)
+        if (leftLimit != null && rightLimit  != null)
         {
-            case true:
-                transform.Translate(new Vector3(leftLimit.position.x, 0, 0) * Time.deltaTime * velocidade);
-                if (transform.position.x <= leftLimit.position.x)
-                {
-                    leftOrRight = false;
-                }
-                break;
+            switch (leftOrRight)
+            {
+                case true:
+                    transform.Translate(new Vector3(leftLimit.position.x, 0, 0) * Time.deltaTime * velocidade);
+                    if (transform.position.x <= leftLimit.position.x)
+                    {
+                        leftOrRight = false;
+                    }
+                    break;
 
-            case false:
-                transform.Translate(new Vector3(rightLimit.position.x, 0, 0) * Time.deltaTime * velocidade);
-                if (transform.position.x >= rightLimit.position.x)
-                {
-                    leftOrRight = true;
-                }
-                break;
+                case false:
+                    transform.Translate(new Vector3(rightLimit.position.x, 0, 0) * Time.deltaTime * velocidade);
+                    if (transform.position.x >= rightLimit.position.x)
+                    {
+                        leftOrRight = true;
+                    }
+                    break;
+            }
         }
+        
     }
 
     void Spawn()

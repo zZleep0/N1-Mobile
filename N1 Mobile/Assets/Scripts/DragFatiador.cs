@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DragFatiador : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI txtPontuacao;
-    private int pontuacao = 0;
-
     [SerializeField] private LevelManager levelManager;
 
     // Start is called before the first frame update
@@ -19,7 +17,7 @@ public class DragFatiador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        txtPontuacao.text = pontuacao.ToString();
+        levelManager.txtPontuacao.text = levelManager.pontuacao.ToString();
 
         if (Input.touchCount > 0)
         {
@@ -35,15 +33,18 @@ public class DragFatiador : MonoBehaviour
     {
         if (collision.collider.CompareTag("lixo"))
         {
-            pontuacao++;
+            levelManager.pontuacao++;
             Destroy(collision.gameObject);
         }
 
         if (collision.collider.CompareTag("bomba"))
         {
+            levelManager.qtdVidas--;
             levelManager.tempo -= 3;
             print("bomba");
             Destroy(collision.gameObject);
+
+
         }
     }
 }

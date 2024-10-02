@@ -1624,9 +1624,9 @@ MonoBehaviour:
   txtPontuacao: {fileID: 1090664208}
   pontuacao: 0
   tempo: 0
-  txtTempo: {fileID: 1531886874}
+  txtTempo: {fileID: 0}
   qtdVidas: 0
-  txtVidas: {fileID: 0}
+  txtVidas: {fileID: 1531886874}
   pnlGameOver: {fileID: 1299088048}
   pnlDefault: {fileID: 1305747219}
   spawner: {fileID: 1226962828}
@@ -2068,7 +2068,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1361029776}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: ModoTempo
+        m_MethodName: ModoSobrevivencia
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2128,7 +2128,7 @@ GameObject:
   - component: {fileID: 1531886875}
   - component: {fileID: 1531886874}
   m_Layer: 5
-  m_Name: Txt Tempo
+  m_Name: Txt Vidas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2173,7 +2173,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tempo
+  m_text: Vidas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

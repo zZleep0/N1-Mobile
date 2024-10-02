@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
+
     //Menu Inicial
 
-    public void Iniciar()
+    public void ModoTempo()
     {
         SceneManager.LoadScene("Game");
+    }
+
+    public void ModoSobrevivencia()
+    {
+        SceneManager.LoadScene("Sobrevivencia");
     }
 
     public void Sair()
