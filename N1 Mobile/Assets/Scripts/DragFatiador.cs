@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class DragFatiador : MonoBehaviour
 {
     [SerializeField] private LevelManager levelManager;
+    [SerializeField] private SoundManager soundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,7 @@ public class DragFatiador : MonoBehaviour
         if (collision.collider.CompareTag("lixo"))
         {
             levelManager.pontuacao++;
+            soundManager.PlaySound(SoundManager.SoundType.TypeCorrect);
             Destroy(collision.gameObject);
         }
 
@@ -41,6 +43,7 @@ public class DragFatiador : MonoBehaviour
         {
             levelManager.qtdVidas--;
             levelManager.tempo -= 3;
+            soundManager.PlaySound(SoundManager.SoundType.TypeBomb);
             print("bomba");
             Destroy(collision.gameObject);
 

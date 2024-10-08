@@ -21,9 +21,13 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject spawner1;
     [SerializeField] private GameObject spawner2;
 
+    [SerializeField] private SoundManager soundManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        soundManager.GetComponent<SoundManager>();
+
         tempo = 20;
 
         qtdVidas = 3;
@@ -71,7 +75,8 @@ public class LevelManager : MonoBehaviour
 
     void GameOver()
     {
-        
+        soundManager.PlaySound(SoundManager.SoundType.TypeGameOver);
+
         Destroy(spawner);
         Destroy(spawner1);
         Destroy(spawner2);
